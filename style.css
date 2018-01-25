@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background: #222;
+  color: #fff;
+}
+
+#head {
+  position: fixed;
+  width: calc( 100% - 16px );
+  height: 18px;
+  padding: 7px 8px;
+
+  background: #567;
+  color: #abc;
+
+  font: 300 16px "Helvetica Neue", Arial, sans-serif;
+}
+
+#head a {
+  color: #8ad;
+  text-decoration: none;
+}
+
+#container {
+  display: grid;
+  position: absolute;
+  left: 8px;
+  top: 40px;
+  width: calc( 100% - 16px );
+  
+  grid-template-columns: repeat( 5, 1fr );
+  grid-gap: 8px;
+}
+
+#container a {
+  font-size: 0;
+}
+
+#container img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+#wip {
+  position: fixed;
+  right: -5px;
+  width: 0;
+}
