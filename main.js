@@ -3,72 +3,86 @@ let items = [
     id: "20180119",
     name: "Depression",
     imgur: "jw96vci",
-    time: 2.3,
     twitter: "954100933096435712"
   },
   {
     id: "20180105",
     name: "迎春",
     imgur: "1qSHdJq",
-    time: 3.8,
     twitter: "948932127252361219"
   },
   {
     id: "20171220",
     name: "Send",
     imgur: "Q1lxbP9",
-    time: 1.5,
     twitter: "943134320339779585"
   },
   {
     id: "20171201",
     name: "Accelerator",
     imgur: "GWGVyqo",
-    time: 1.0,
     twitter: "936273726139637760"
   },
   {
     id: "20171128",
     name: "Pasta",
     imgur: "pFcOKty",
-    time: 1.8,
     twitter: "935165514115977216"
   },
   {
     id: "20171114",
     name: "Chain of Pain",
     imgur: "2WT2YoA",
-    time: 1.0,
     twitter: "930090313988718592"
   },
   {
     id: "20171031",
     name: "Happy Halloween!",
     imgur: "RBhrZ3y",
-    time: 3.7,
     twitter: "925017213173559296"
   },
   {
     id: "20171010",
     name: "Candy Storm",
     imgur: "SZGGtFj",
-    time: 1.2,
     twitter: "917407376021504000"
   },
   {
     id: "20171003",
     name: "Particle Racer 2",
     imgur: "PeEU9RJ",
-    time: 0.9,
     twitter: "914897309221003264"
   },
   {
     id: "20170922",
     name: "Particle Racer",
     imgur: "elRk0li",
-    time: 1.2,
     twitter: "910931550102884352"
-  }
+  },
+  {
+    id: "20170905",
+    name: "Instinct",
+    imgur: "XUYySeN",
+    twitter: "904741403967733760"
+  },
+  {
+    id: "20170822",
+    name: "Particloscope",
+    imgur: "HUKi8j6",
+    twitter: "899651131298664448"
+  },
+  {
+    id: "20170808",
+    name: "Block-matching experiment",
+    imgur: "2k2XQ2k",
+    twitter: "894577434737098752"
+  },
+  {
+    id: "20170725",
+    name: "Advanced Vertex Deformer",
+    imgur: "f6xwEki",
+    twitter: "889501092463075328"
+  },
 ];
 
 items.map( ( item, index ) => {
@@ -77,8 +91,8 @@ items.map( ( item, index ) => {
   a.href = "https://github.com/fms-cat-eom/" + item.id;
 
   if ( index === 0 ) {
-    a.style.gridColumn = "1 / 3";
-    a.style.gridRow = "1 / 3";
+    a.style.gridColumn = "span 2";
+    a.style.gridRow = "span 2";
   }
 
   let img = document.createElement( "img" );
