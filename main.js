@@ -1,5 +1,11 @@
 let items = [
   {
+    id: "20180202",
+    name: "Procedure",
+    imgur: "OtYkeUQ",
+    twitter: "959086299096297472"
+  },
+  {
     id: "20180119",
     name: "Depression",
     imgur: "jw96vci",
