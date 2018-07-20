@@ -1,5 +1,29 @@
 let items = [
   {
+    id: "20180720",
+    name: "Trail 2",
+    imgur: "3zzztEd",
+    twitter: "1020112614628577280"
+  },
+  {
+    id: "20180706",
+    name: "Trail",
+    imgur: "K3EjBq9",
+    twitter: "1014950212496838656"
+  },
+  {
+    id: "20180622",
+    name: "Voxel Tunnel",
+    imgur: "syCoTld",
+    twitter: "1009866433692483584"
+  },
+  {
+    id: "20180608",
+    name: "TouchDesigner Experiment",
+    imgur: "IyKF3CJ",
+    twitter: "1005054748196626432"
+  },
+  {
     id: "20180525",
     name: "Instance",
     imgur: "VeOGW9I",
