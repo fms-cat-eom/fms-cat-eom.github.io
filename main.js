@@ -1,4 +1,4 @@
-let items = [
+const items = [
   {
     id: "20180803",
     name: "Trail 3",
@@ -170,7 +170,7 @@ let items = [
 ];
 
 items.map( ( item, index ) => {
-  let a = document.createElement( "a" );
+  const a = document.createElement( "a" );
   container.appendChild( a );
   a.href = "https://github.com/fms-cat-eom/" + item.id;
 
@@ -179,7 +179,7 @@ items.map( ( item, index ) => {
     a.style.gridRow = "span 2";
   }
 
-  let img = document.createElement( "img" );
+  const img = document.createElement( "img" );
   a.appendChild( img );
   img.src = "https://i.imgur.com/" + item.imgur + ".gif";
 } );
@@ -187,9 +187,9 @@ items.map( ( item, index ) => {
 let wipScroll = 0.0;
 let wipPlay = false;
 
-let wipUpdate = () => {
+const wipUpdate = () => {
   if ( wipPlay ) {
-    let v = ( +new Date() % 100 ) < 50
+    const v = ( +new Date() % 100 ) < 50
     wip.src = "images/wip" + ( v ? "1" : "2" ) + ".png";
     wip.style.bottom = "0px";
     wip.style.width = ( 128.0 + 32.0 * Math.random() ) + "px";
@@ -214,6 +214,6 @@ wip.addEventListener( "mouseleave", () => {
 } );
 
 window.addEventListener( "wheel", ( event ) => {
-  let y = event.deltaY;
+  const y = event.deltaY;
   wipScroll = Math.min( Math.max( wipScroll + y * 0.0001, 0.0 ), 1.0 );
 } );
