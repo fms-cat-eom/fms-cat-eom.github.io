@@ -1,5 +1,17 @@
 const items = [
   {
+    id: "20180914",
+    name: "The Okonomiyaki Shitpost",
+    imgur: "YgLp06K",
+    twitter: "1040258456945664001"
+  },
+  {
+    id: "20180831",
+    name: "Summer Is Gone",
+    imgur: "AxlMMbt",
+    twitter: "1035298175085502464"
+  },
+  {
     id: "20180803",
     name: "Trail 3",
     imgur: "QbhnLFN",
