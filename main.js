@@ -1,5 +1,23 @@
 const items = [
   {
+    id: "20181026",
+    name: "tukareta",
+    imgur: "OHXQGit",
+    twitter: "1055848684410159109"
+  },
+  {
+    id: "20181012",
+    name: "DeltaTime Multiplier x0.0",
+    imgur: "ojBV1nv",
+    twitter: "1050450536720293889"
+  },
+  {
+    id: "20180928",
+    name: "Diversity",
+    imgur: "iIHBVHR",
+    twitter: "1045758800009945088"
+  },
+  {
     id: "20180914",
     name: "The Okonomiyaki Shitpost",
     imgur: "YgLp06K",
